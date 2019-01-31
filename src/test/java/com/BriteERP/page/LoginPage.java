@@ -27,6 +27,7 @@ public class LoginPage {
     public WebElement loginButton;
 
 
+
     public void login(String usr, String pass) {
         database.click();
         email.sendKeys(usr);
