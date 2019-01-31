@@ -28,5 +28,6 @@ public class TestInvoices extends TestBase {
         wait.until(ExpectedConditions.elementToBeClickable(invoicingPage.reportingManagementLink));
         invoicingPage.goToInvoices();
 
+
     }
 }
