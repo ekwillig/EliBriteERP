@@ -1,6 +1,6 @@
-package com.briteerp.pages;
+package com.BriteERP.page;
 
-import com.briteerp.utilities.Driver;
+import com.BriteERP.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

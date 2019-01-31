@@ -1,13 +1,11 @@
-package com.briteerp.tests.smokeTests;
+package com.BriteERP.tests.smoke_tests.functional_tests;
 
-import com.briteerp.pages.ChannelInboxPage;
-import com.briteerp.pages.HomePage;
-import com.briteerp.pages.InvoicingPage;
-import com.briteerp.pages.LoginPage;
-import com.briteerp.utilities.ConfigurationReader;
-import com.briteerp.utilities.Driver;
-import com.briteerp.utilities.PageUtilities;
-import com.briteerp.utilities.TestBase;
+import com.BriteERP.page.ChannelInboxPage;
+import com.BriteERP.page.InvoicingPage;
+import com.BriteERP.page.LoginPage;
+import com.BriteERP.utilities.ConfigurationReader;
+import com.BriteERP.utilities.Driver;
+import com.BriteERP.utilities.TestBase;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
@@ -15,12 +13,10 @@ import org.testng.annotations.Test;
 public class TestInvoices extends TestBase {
     @Test
     public void testInvoicePageValidation(){
-        HomePage homePage = new HomePage();
-        homePage.navigateToHomePage();
-        homePage.navigateToLoginPage();
 
         LoginPage loginPage = new LoginPage();
-        loginPage.login(ConfigurationReader.getProperty("username"), ConfigurationReader.getProperty("password"));
+        loginPage.open();
+        loginPage.login(ConfigurationReader.getProperty("userEmail"), ConfigurationReader.getProperty("userPassword"));
 
         ChannelInboxPage channelInboxPage = new ChannelInboxPage();
 
