@@ -274,7 +274,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548909736232" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549147937563" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -306,7 +306,7 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.TestInvoices.testInvoicePageValidation">
-    <configuration name="Login_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login_Test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteERP" />
       <extension name="coverage">
         <pattern>
@@ -322,7 +322,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login_Test.loginAsManag" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login_Test.loginAsManag" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteERP" />
       <extension name="coverage">
         <pattern>
@@ -340,7 +340,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login_Test.loginAsUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login_Test.loginAsUser" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteERP" />
       <extension name="coverage">
         <pattern>
@@ -358,7 +358,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Purchases.Purchases" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Purchases.Purchases" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteERP" />
       <extension name="coverage">
         <pattern>
@@ -376,7 +376,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInvoices.testInvoicePageValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestInvoices.testInvoicePageValidation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteERP" />
       <extension name="coverage">
         <pattern>
