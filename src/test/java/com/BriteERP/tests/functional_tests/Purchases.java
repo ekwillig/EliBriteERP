@@ -18,7 +18,7 @@ public class Purchases extends TestBase {
     @Test
 
     public void Purchases() throws InterruptedException {
-        extentLogger = report.createTest("Vendor bills navigation test");
+        extentLogger = report.createTest("Purchases test");
 
         pages.login().login(ConfigurationReader.getProperty("email"),ConfigurationReader.getProperty("password"));
         sleep(4000);
@@ -28,13 +28,13 @@ public class Purchases extends TestBase {
 
         sleep(4000);
         pages.purchases().vendorBillsUnderPurchases.click();
-        sleep(4000);
+        sleep(5000);
         String str = driver.getTitle();
         System.out.println(str);
 
         extentLogger.info("Verifying Vendor bills page opened");
         assertEquals(driver.getTitle(), ApplicationConstants.VENDOR_BILLS);
-        extentLogger.pass("Passed: Vendor bills navigation test");
+
 
         extentLogger = report.createTest("New vendor page validation test");
         pages.purchases().createVendorBills.click();
@@ -65,6 +65,9 @@ public class Purchases extends TestBase {
         sleep(3000);
         assertEquals(pages.purchases().addressStreet.getAttribute("placeholder"), "Street...");
         sleep(3000);
+
+        extentLogger.pass("Passed: Vendor bills navigation test");
+
     }
 
 }
