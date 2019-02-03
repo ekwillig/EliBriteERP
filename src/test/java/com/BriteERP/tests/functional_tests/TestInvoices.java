@@ -1,4 +1,4 @@
-package com.BriteERP.tests.smoke_tests.functional_tests;
+package com.BriteERP.tests.functional_tests;
 
 import com.BriteERP.page.ChannelInboxPage;
 import com.BriteERP.page.InvoicingPage;

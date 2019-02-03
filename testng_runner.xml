@@ -3,7 +3,7 @@
 
     <test name="WebOrders Automated Tests">
         <classes>
-            <class name="com.BriteERP.tests.smoke_tests.functional_tests.Purchases">
+            <class name="com.BriteERP.tests.functional_tests.Purchases">
                 <methods>
                     <include name="blankPassword"/>
                 </methods>
