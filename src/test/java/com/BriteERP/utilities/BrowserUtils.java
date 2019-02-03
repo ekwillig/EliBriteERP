@@ -143,7 +143,7 @@ public class BrowserUtils {
     public static WebElement fluentWait(final WebElement webElement, int timeinsec) {
         FluentWait<WebDriver> wait = new FluentWait<WebDriver>(Driver.getDriver())
                 .withTimeout(Duration.ofSeconds(timeinsec))
-                .pollingEvery(Duration.ofMillis(500))
+                .pollingEvery(Duration.ofMillis(700))
                 .ignoring(NoSuchElementException.class);
         WebElement element = wait.until(new Function<WebDriver, WebElement>() {
             public WebElement apply(WebDriver driver) {
