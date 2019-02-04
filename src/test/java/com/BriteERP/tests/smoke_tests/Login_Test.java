@@ -2,6 +2,7 @@ package com.BriteERP.tests.smoke_tests;
 
 import com.BriteERP.utilities.ConfigurationReader;
 import com.BriteERP.utilities.TestBase;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class Login_Test extends TestBase {
@@ -15,6 +16,11 @@ public class Login_Test extends TestBase {
     public void loginAsUser(){
         pages.login().login(ConfigurationReader.getProperty("userEmail"),
                 ConfigurationReader.getProperty("userPassword"));
+    }
+
+    @AfterMethod
+    public void logOut(){
+
     }
 
 

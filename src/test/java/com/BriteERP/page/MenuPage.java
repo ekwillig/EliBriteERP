@@ -14,13 +14,14 @@ public abstract class MenuPage{
         @FindBy(linkText = "Invoicing")
         public WebElement invoicing;
 
+        @FindBy(xpath = "//div[@class='o_sub_menu_content']/div[8]/div[1]")
+        public WebElement salesOption;
 
         @FindBy(xpath = "//a[@data-menu='201']")
         public WebElement documentsUnderSales;
 
         @FindBy(xpath="//a[@data-menu='239']")
         public WebElement customerInvoices;
-
 
         @FindBy(xpath="//a[@data-menu='240'")
         public WebElement customerCreditNotes;
@@ -36,8 +37,6 @@ public abstract class MenuPage{
 
         @FindBy(xpath="//a[@data-action-id='295']")
         public WebElement sellableProducts;
-
-
 
         @FindBy(xpath="//a[@data-menu='205']")
         public WebElement documentsUnderPurchases;
@@ -93,6 +92,13 @@ public abstract class MenuPage{
 
         @FindBy(xpath="//a[@data-menu='441']")
         public WebElement paymentAcquirement;
+
+        @FindBy(xpath = "//span[@class='oe_topbar_name']")
+        public WebElement nameOnHeader;
+
+        @FindBy(xpath = "//div[@class='navbar-collapse collapse']/ul[2]/li/ul/li[6]/a")
+        public WebElement logout;
+
 
 
     }
