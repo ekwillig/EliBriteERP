@@ -10,7 +10,7 @@ public class ChannelInboxPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "//a[@href=\"/web#menu_id=199&action=\"]")
+    @FindBy(linkText = "Invoicing")
     public WebElement invoicingLink;
 
 
