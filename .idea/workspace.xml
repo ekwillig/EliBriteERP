@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07736b76-593e-4325-8df4-d83c939a73ed" name="Default Changelist" comment="Merge branch 'master' of https://github.com/AidanaAl/BriteERP&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;target/test-classes/com/BriteERP/tests/smoke_tests/functional_tests/Purchases.class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/MenuTabsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/functional_tests/Purchases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/functional_tests/Purchases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/functional_tests/TestInvoices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/functional_tests/TestInvoices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng_runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteERP/page/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteERP/page/MenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/functional_tests/Purchases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/functional_tests/Purchases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/Login_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/Login_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/Pages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteERP/page/MenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteERP/page/MenuPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteERP/tests/smoke_tests/Login_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteERP/tests/smoke_tests/Login_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteERP/tests/smoke_tests/functional_tests/Purchases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteERP/utilities/Pages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteERP/utilities/Pages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,17 +27,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configuration.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="8" selection-start-line="3" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="30">
+              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/tests/functional_tests/Purchases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="65" column="92" selection-start-line="65" selection-start-column="92" selection-end-line="65" selection-end-column="92" />
+            <state relative-caret-position="423">
+              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,18 +46,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="375">
               <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -59,29 +57,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testng_runner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/MenuTabsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/ApplicationConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+            <state relative-caret-position="203">
+              <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,8 +72,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/page/PurchasesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+            <state relative-caret-position="540">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/page/MenuPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/ConfigurationReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/page/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="158">
+              <caret line="13" column="5" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,8 +120,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/Pages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="510">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/page/MenuTabsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,10 +171,7 @@
         <option value="$PROJECT_DIR$/configuration.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/functional_tests/reportTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/reportTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/Login_Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/page/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/page/MenuPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/Pages.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/functional_tests/TC1_Purchases.java" />
         <option value="$PROJECT_DIR$/testng_runner" />
         <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/ApplicationConstants.java" />
@@ -163,6 +179,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/functional_tests/Purchases.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/testng_runner.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/Menu_Tabs_Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/Login_Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/Pages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/page/MenuTabsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/page/MenuPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/MenuTabsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/functional_tests/Purchases.java" />
       </list>
     </option>
   </component>
@@ -174,10 +197,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
+    <option name="x" value="1280" />
     <option name="y" value="23" />
-    <option name="width" value="1220" />
-    <option name="height" value="754" />
+    <option name="width" value="1304" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -269,6 +292,11 @@
             <path>
               <item name="BriteERP" type="b2602c69:ProjectViewProjectNode" />
               <item name="BriteERP" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BriteERP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BriteERP" type="462c0819:PsiDirectoryNode" />
               <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -279,7 +307,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549166701456" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549231772547" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
@@ -305,7 +333,7 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.Purchases.Purchases">
-    <configuration name="Login_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuTabsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteERP" />
       <extension name="coverage">
         <pattern>
@@ -313,15 +341,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.BriteERP.tests.functional_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.BriteERP.tests.smoke_tests.Login_Test" />
+      <option name="PACKAGE_NAME" value="com.BriteERP.tests.smoke_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.BriteERP.tests.smoke_tests.MenuTabsTest" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login_Test.loginAsManag" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuTabsTest.loginAsManag" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteERP" />
       <extension name="coverage">
         <pattern>
@@ -329,8 +357,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.BriteERP.tests.functional_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.BriteERP.tests.smoke_tests.Login_Test" />
+      <option name="PACKAGE_NAME" value="com.BriteERP.tests.smoke_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.BriteERP.tests.smoke_tests.MenuTabsTest" />
       <option name="METHOD_NAME" value="loginAsManag" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -339,7 +367,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login_Test.loginAsUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuTabsTest.menuTabs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BriteERP" />
       <extension name="coverage">
         <pattern>
@@ -347,9 +375,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.BriteERP.tests.functional_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.BriteERP.tests.smoke_tests.Login_Test" />
-      <option name="METHOD_NAME" value="loginAsUser" />
+      <option name="PACKAGE_NAME" value="com.BriteERP.tests.smoke_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.BriteERP.tests.smoke_tests.MenuTabsTest" />
+      <option name="METHOD_NAME" value="menuTabs" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -365,7 +393,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.BriteERP.tests.smoke_tests.functional_tests" />
+      <option name="PACKAGE_NAME" value="com.BriteERP.tests.functional_tests" />
       <option name="MAIN_CLASS_NAME" value="com.BriteERP.tests.functional_tests.Purchases" />
       <properties />
       <listeners />
@@ -392,18 +420,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Purchases" />
       <item itemvalue="TestNG.Purchases.Purchases" />
-      <item itemvalue="TestNG.Login_Test.loginAsManag" />
-      <item itemvalue="TestNG.Login_Test.loginAsUser" />
-      <item itemvalue="TestNG.Login_Test" />
+      <item itemvalue="TestNG.MenuTabsTest.loginAsManag" />
+      <item itemvalue="TestNG.MenuTabsTest.menuTabs" />
+      <item itemvalue="TestNG.MenuTabsTest" />
+      <item itemvalue="TestNG.Purchases" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Purchases.Purchases" />
-        <item itemvalue="TestNG.Login_Test" />
-        <item itemvalue="TestNG.Login_Test.loginAsUser" />
-        <item itemvalue="TestNG.Login_Test.loginAsManag" />
+        <item itemvalue="TestNG.Purchases" />
+        <item itemvalue="TestNG.MenuTabsTest" />
+        <item itemvalue="TestNG.MenuTabsTest.menuTabs" />
+        <item itemvalue="TestNG.MenuTabsTest.loginAsManag" />
       </list>
     </recent_temporary>
   </component>
@@ -436,42 +465,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Purchases_Purchases - 2019.01.31 at 21h 21m 25s.xml">
+    <history-entry file="MenuTabsTest_loginAsManag - 2019.02.03 at 12h 16m 15s.xml">
+      <configuration name="MenuTabsTest.loginAsManag" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuTabsTest_menuTabs - 2019.02.03 at 12h 19m 02s.xml">
+      <configuration name="MenuTabsTest.menuTabs" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuTabsTest_menuTabs - 2019.02.03 at 13h 30m 44s.xml">
+      <configuration name="MenuTabsTest.menuTabs" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuTabsTest_menuTabs - 2019.02.03 at 16h 34m 58s.xml">
+      <configuration name="MenuTabsTest.menuTabs" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuTabsTest_menuTabs - 2019.02.03 at 16h 36m 34s.xml">
+      <configuration name="MenuTabsTest.menuTabs" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuTabsTest - 2019.02.03 at 16h 38m 29s.xml">
+      <configuration name="MenuTabsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Purchases_Purchases - 2019.02.03 at 17h 01m 06s.xml">
       <configuration name="Purchases.Purchases" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Purchases_Purchases - 2019.02.02 at 09h 11m 47s.xml">
+    <history-entry file="Purchases - 2019.02.03 at 17h 02m 35s.xml">
+      <configuration name="Purchases" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Purchases_Purchases - 2019.02.03 at 17h 04m 13s.xml">
       <configuration name="Purchases.Purchases" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Purchases_Purchases - 2019.02.02 at 09h 16m 33s.xml">
-      <configuration name="Purchases.Purchases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Purchases_Purchases - 2019.02.02 at 09h 21m 02s.xml">
-      <configuration name="Purchases.Purchases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Purchases_Purchases - 2019.02.02 at 09h 28m 53s.xml">
-      <configuration name="Purchases.Purchases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Purchases_Purchases - 2019.02.02 at 09h 32m 59s.xml">
-      <configuration name="Purchases.Purchases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Purchases_Purchases - 2019.02.02 at 09h 46m 31s.xml">
-      <configuration name="Purchases.Purchases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Purchases_Purchases - 2019.02.02 at 09h 49m 09s.xml">
-      <configuration name="Purchases.Purchases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Purchases_Purchases - 2019.02.02 at 09h 51m 28s.xml">
-      <configuration name="Purchases.Purchases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Purchases_Purchases - 2019.02.02 at 09h 53m 26s.xml">
+    <history-entry file="Purchases_Purchases - 2019.02.03 at 17h 06m 43s.xml">
       <configuration name="Purchases.Purchases" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="23" width="1220" height="754" extended-state="0" />
-    <editor active="true" />
+    <frame x="1280" y="23" width="1304" height="1053" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2801358" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2614897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -479,8 +507,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32930514" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917355" weight="0.34591195" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917355" visible="true" weight="0.23725286" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -500,7 +528,7 @@
       <window_info anchor="right" id="Maven" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29504132" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2614897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -508,14 +536,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917355" weight="0.20704846" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917355" visible="true" weight="0.23725286" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49752066" weight="0.43171805" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5024793" side_tool="true" weight="0.43040293" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4968051" weight="0.41389728" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50319487" side_tool="true" weight="0.2839378" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -563,97 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/ConfigurationReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/Login_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/page/MenuPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/page/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/Pages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/page/PurchasesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" selection-start-line="3" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/tests/functional_tests/Purchases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="65" column="92" selection-start-line="65" selection-start-column="92" selection-end-line="65" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -674,7 +615,135 @@
     <entry file="file://$PROJECT_DIR$/testng_runner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/tests/functional_tests/JournalsAudit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/tests/functional_tests/TestInvoices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/Login_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/page/InvoicingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/page/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="13" column="5" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/Pages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/page/PurchasesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/ConfigurationReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/page/MenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/page/MenuTabsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/tests/smoke_tests/MenuTabsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/tests/functional_tests/Purchases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

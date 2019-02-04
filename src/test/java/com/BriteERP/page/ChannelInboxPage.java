@@ -6,9 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ChannelInboxPage {
-    public ChannelInboxPage(){
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
+    public ChannelInboxPage(){ PageFactory.initElements(Driver.getDriver(), this); }
 
     @FindBy(linkText = "Invoicing")
     public WebElement invoicingLink;
