@@ -1,15 +1,14 @@
 package com.BriteERP.utilities;
 
-import com.BriteERP.page.LoginPage;
-import com.BriteERP.page.MenuPage;
-import com.BriteERP.page.MenuTabsPage;
-import com.BriteERP.page.PurchasesPage;
+import com.BriteERP.page.*;
 
 public class Pages {
+
 
     private LoginPage loginPage;
     private PurchasesPage purchasesPage;
     private MenuTabsPage menuTabsPage;
+    private ConfigurationPage configurationPage;
 
 
     public LoginPage login() {
@@ -33,4 +32,13 @@ public class Pages {
             return menuTabsPage;
 
     }
+
+    public ConfigurationPage config() {
+        if (configurationPage == null) {
+            configurationPage = new ConfigurationPage();
+        }
+        return configurationPage;
+
+    }
+
 }
