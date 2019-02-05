@@ -3,7 +3,7 @@ package com.BriteERP.utilities;
 public class ApplicationConstants {
     public static final String INVOICING = "Invoicing";
 
-    public static final String SALES = "Sales";
+    public static final String SALES = "MasterData";
     public static final String DOCUMENTS = "Documents";
     public static final String CUSTOMER_INVOICES = "Customer Invoices";
     public static final String CUSTOMER_CREDIT_NOTES = "Customer Credit Notes";
