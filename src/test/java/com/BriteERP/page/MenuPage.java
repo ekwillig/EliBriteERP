@@ -32,7 +32,7 @@ public abstract class MenuPage{
         @FindBy(xpath="//a[@data-menu='203']")
         public WebElement masterData1;
 
-        @FindBy(xpath="//a[@data-action-id='49']")
+        @FindBy(xpath="//span[contains(text(),'Customers')]")
         public WebElement customers;
 
         @FindBy(xpath="//a[@data-action-id='295']")
