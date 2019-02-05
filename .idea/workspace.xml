@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07736b76-593e-4325-8df4-d83c939a73ed" name="Default Changelist" comment="Merge branch 'master' of https://github.com/AidanaAl/BriteERP&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;target/test-classes/com/BriteERP/tests/smoke_tests/functional_tests/Purchases.class">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/BriteERP/page/ConfigurationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/BriteERP/tests/functional_tests/configurationTab/BankAccountPageFunctionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteERP/utilities/Pages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/BriteERP.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteERP/tests/smoke_tests/functional_tests/PaymentTerms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteERP/tests/smoke_tests/functional_tests/TestInvoices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteERP/utilities/Pages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteERP/utilities/Pages.class" afterDir="false" />
-    </list>
+    <list default="true" id="07736b76-593e-4325-8df4-d83c939a73ed" name="Default Changelist" comment="Merge branch 'master' of https://github.com/AidanaAl/BriteERP&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;target/test-classes/com/BriteERP/tests/smoke_tests/functional_tests/Purchases.class" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/tests/functional_tests/configurationTab/BankAccountPageFunctionality.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            <state relative-caret-position="103">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -333,7 +324,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549333849377" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549334117853" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
@@ -489,12 +480,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MenuTabsTest_menuTabs - 2019.02.03 at 16h 34m 58s.xml">
-      <configuration name="MenuTabsTest.menuTabs" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MenuTabsTest_menuTabs - 2019.02.03 at 16h 36m 34s.xml">
-      <configuration name="MenuTabsTest.menuTabs" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="MenuTabsTest - 2019.02.03 at 16h 38m 29s.xml">
       <configuration name="MenuTabsTest" configurationId="TestNG" />
     </history-entry>
@@ -519,12 +504,17 @@
     <history-entry file="BankAccountPageFunctionality_pageFunctionalityTesting - 2019.02.04 at 21h 23m 33s.xml">
       <configuration name="BankAccountPageFunctionality.pageFunctionalityTesting" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="BankAccountPageFunctionality_pageFunctionalityTesting - 2019.02.04 at 21h 29m 23s.xml">
+      <configuration name="BankAccountPageFunctionality.pageFunctionalityTesting" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BankAccountPageFunctionality_pageFunctionalityTesting - 2019.02.04 at 21h 31m 46s.xml">
+      <configuration name="BankAccountPageFunctionality.pageFunctionalityTesting" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="95" y="23" width="1077" height="707" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3178744" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3178744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -533,12 +523,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917355" visible="true" weight="0.23577236" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917355" weight="0.23577236" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4968051" weight="0.41300812" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4968051" visible="true" weight="0.41300812" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50319487" side_tool="true" weight="0.2839378" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -809,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteERP/tests/functional_tests/configurationTab/BankAccountPageFunctionality.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        <state relative-caret-position="103">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
