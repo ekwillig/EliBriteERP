@@ -40,6 +40,17 @@ public class PurchasesPage extends MenuPage {
     @FindBy(xpath = "//input[@class='o_field_char o_field_widget o_input o_address_street'][1]")
     public WebElement addressStreet;
 
+    @FindBy(xpath = "//input[@class='o_field_char o_field_widget o_input o_address_street'][2]")
+    public WebElement addressStreet2;
+
+    @FindBy(xpath = "//input[@class='o_field_char o_field_widget o_input o_address_city']")
+    public WebElement city;
+
+    @FindBy(xpath = "//div[@class='o_field_widget o_field_many2one o_address_state']/div/input")
+    public WebElement state;
+
+    @FindBy(xpath = "//input[@class='o_field_char o_field_widget o_input o_address_zip']")
+    public WebElement zip;
 
 
 }

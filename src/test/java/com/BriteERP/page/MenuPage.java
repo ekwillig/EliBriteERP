@@ -62,7 +62,6 @@ public abstract class MenuPage{
         @FindBy(xpath = "//a[@data-menu='213']")
         public WebElement managementUnderReporting;
 
-
         @FindBy(xpath="//a[@data-menu='216']")
         public WebElement pdfReports;
 

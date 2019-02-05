@@ -66,6 +66,26 @@ public class Purchases extends TestBase {
         assertEquals(pages.purchases().addressStreet.getAttribute("placeholder"), "Street...");
         sleep(3000);
 
+        extentLogger.info("Verifying address 2 field");
+        sleep(3000);
+        assertEquals(pages.purchases().addressStreet2.getAttribute("placeholder"), "Street 2...");
+        sleep(3000);
+
+        extentLogger.info("Verifying City field");
+        sleep(3000);
+        assertEquals(pages.purchases().city.getAttribute("placeholder"), "City");
+        sleep(3000);
+
+        extentLogger.info("Verifying State field");
+        sleep(3000);
+        assertEquals(pages.purchases().state.getAttribute("placeholder"), "State");
+        sleep(3000);
+
+        extentLogger.info("Verifying ZIP field");
+        sleep(3000);
+        assertEquals(pages.purchases().zip.getAttribute("placeholder"), "ZIP");
+        sleep(3000);
+
         extentLogger.pass("Passed: Vendor bills navigation test");
 
     }
